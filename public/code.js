@@ -68,7 +68,7 @@
             el.setAttribute("class", "message other-message");
             el.innerHTML = `
             
-            <div>
+            <div style="background-color: #008000">
                 <div class="name">${message.username}</div>
                 <div class="text">${message.text}</div>
             </div>
